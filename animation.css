@@ -1,0 +1,38 @@
+.run1{
+    
+right: 400px;
+    position: absolute;
+   
+    top: 188px;
+}
+body{
+    background-color: skyblue;
+
+}
+.run2{
+         position: absolute;
+    left: 302px;
+    top: 328px;
+}
+
+.bgmain{
+    top: 0px;
+     width:104%;
+    height: 460px;
+}
+
+.bg{
+     width:185%;
+    height: 140%;
+    display: block;
+    animation: bg 9s linear infinite;
+
+}
+@keyframes bg{
+    100%{
+
+        transform: translateX(-40%);
+       
+    }
+}
+
